@@ -19,7 +19,4 @@
       "request": ">= 2.9.153"
     },
     "main" : "./lib/opencnam",
-    "bin":          {
-      "ngist":       "./lib/cli.js"
-    }
 }
