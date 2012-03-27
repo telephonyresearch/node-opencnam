@@ -18,5 +18,5 @@
     "dependencies": {
       "request": ">= 2.9.153"
     },
-    "main" : "./lib/opencnam",
+    "main" : "./lib/opencnam"
 }
