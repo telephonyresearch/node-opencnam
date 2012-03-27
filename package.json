@@ -1,0 +1,25 @@
+{
+    "name":         "opencnam",
+    "description":  "A simple node library for getting caller ID name information.",
+    "keywords":     ["opencnam", "callerid", "api", "tools", "telephony", "simple"],
+    "author":       "Randall Degges <rdegges@gmail.com>",
+    "version":      "0.1.0",
+    "licenses":     [{
+      "type":       "UNLICENSE",
+      "url": "http://github.com/telephonyresearch/node-opencnam/raw/master/UNLICENSE"
+    }],
+    "repository": {
+      "type": "git",
+      "url": "http://github.com/telephonyresearch/node-opencnam.git" 
+    },
+    "engines":      {
+      "node":       ">=0.4.0"
+    },
+    "dependencies": {
+      "request": ">= 2.9.153"
+    },
+    "main" : "./lib/opencnam",
+    "bin":          {
+      "ngist":       "./lib/cli.js"
+    }
+}
