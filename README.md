@@ -46,11 +46,30 @@ opencnam.lookup('2024561111', function (err, cnam) {
 });
 ```
 
+If you're using the Professional Tier, you can pass in the account credentials via the `options` parameter:
+
+``` javascript
+var opencnam = require('opencnam');
+
+var options = {
+  account_sid: '<Account SID>',
+  auth_token:  '<Auth Token>'
+};
+
+opencnam.lookup('2024561111', options, function (err, cnam) {
+  if (!err) {
+    console.log(cnam);
+  } else {
+    console.log(err);
+  }
+});
+```
+
 
 ## Limits
 
 The [opencnam](http://www.opencnam.com "opencnam") API we use as a backend
-limits you to no more than 60 requests per hour (using their free tier).
+limits you to no more than 10 requests per hour (using the Free Tier).
 
 
 ## Changelog
