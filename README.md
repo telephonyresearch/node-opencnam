@@ -74,6 +74,13 @@ limits you to no more than 10 requests per hour (using the Free Tier).
 
 ## Changelog
 
-v0.1.1: 3-26-2012
-
+v0.1.1: 2012/03/26
     - Initial release!
+
+v0.1.2: 2015/02/26
+    - Using v2 of the API
+
+v0.1.3: 205/05/06
+    - option to use the professional tier
+
+
